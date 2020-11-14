@@ -119,8 +119,8 @@ Heap pollution is a situation that occurs when a variable of a parameterized typ
 parameterized type. The compiler issues an unchecked warning if it detects possible heap pollution. If your program
 compiles without any unchecked warnings, heap pollution will not occur. Consider the following snippet of code:
 Example 13
-
  */
+
 // Summary
 /*
 - Generics are the Java language features that allow you to declare types (classes and interfaces) that use type
@@ -153,8 +153,11 @@ Example 13
 - The generic type parameters are erased by the compiler using a process called type erasure. Therefore, the generic
   type parameters are not available at runtime. For example, the runtime type of Wrapper<Long> and
   Wrapper<String> are the same, which is Wrapper.
+
+
 - The supertype–subtype relationship does not exist with parameterized types. For example, Wrapper<Long> is not
   a subtype of Wrapper<Number>.
+
 - The generic type parameters are erased by the compiler using a process called type erasure. Therefore, the generic type parameters are not available at runtime. For example, the runtime type of Wrapper<Long> and
   Wrapper<String> are the same, which is Wrapper.
 
@@ -162,10 +165,8 @@ Example 13
  */
 
 
-import Chapter4_Generics.Entity.Person;
-import Chapter4_Generics.Entity.Student;
-
-import java.time.Period;
+import Chapter4_Generics.entities.Person;
+import Chapter4_Generics.entities.Student;
 
 // Example 2
 class  MyClass<T,V,K,E>

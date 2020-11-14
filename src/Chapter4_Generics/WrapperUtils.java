@@ -1,7 +1,7 @@
 package Chapter4_Generics;
 
-import Chapter4_Generics.Entity.Person;
-import Chapter4_Generics.Entity.Student;
+import Chapter4_Generics.entities.Person;
+import Chapter4_Generics.entities.Student;
 
 // Example 5
 public class WrapperUtils {

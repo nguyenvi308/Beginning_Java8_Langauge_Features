@@ -1,7 +1,7 @@
 package Chapter1_Annotations;
 
-import Entity.chapter1_annotations.Employee;
-import Entity.chapter1_annotations.Manager;
+import Chapter1_Annotations.enities.Employee;
+import Chapter1_Annotations.enities.Manager;
 
 /*
 1. Chapter Objectives

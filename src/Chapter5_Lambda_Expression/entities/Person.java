@@ -1,4 +1,4 @@
-package Chapter5_Lambda_Expression.Entity;
+package Chapter5_Lambda_Expression.entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

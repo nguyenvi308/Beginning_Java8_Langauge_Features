@@ -1,6 +1,8 @@
-package Entity.chapter1_annotations;
+package Chapter1_Annotations.enities;
 
-public class Manager extends Employee{
+import Chapter1_Annotations.enities.Employee;
+
+public class Manager extends Employee {
 
      @Override
     public void setSalary(double salary) {

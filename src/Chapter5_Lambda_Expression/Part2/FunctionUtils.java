@@ -1,7 +1,5 @@
 package Chapter5_Lambda_Expression.Part2;
 
-import Chapter5_Lambda_Expression.Entity.Person;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;

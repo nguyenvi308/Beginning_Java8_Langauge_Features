@@ -1,6 +1,6 @@
 package Chapter4_Generics;
 
-import Chapter4_Generics.Entity.Student;
+import Chapter4_Generics.entities.Student;
 
 public class Test1 {
 

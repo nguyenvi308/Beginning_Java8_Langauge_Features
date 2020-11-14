@@ -1,4 +1,4 @@
-package Entity.chapter1_annotations;
+package Chapter1_Annotations.enities;
 
 public class Employee {
 

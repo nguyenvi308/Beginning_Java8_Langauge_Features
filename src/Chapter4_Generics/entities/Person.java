@@ -1,4 +1,4 @@
-package Chapter4_Generics.Entity;
+package Chapter4_Generics.entities;
 
 public class Person {
 
